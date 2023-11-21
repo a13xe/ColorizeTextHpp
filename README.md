@@ -23,12 +23,8 @@ colorized_print("Your message", text_color, background_color, boldness);
 ```
   
 
-:joystick: Usage
+:joystick: Example
 --------------------------------------------------------------------------------------------------------------------------------------------------
-
-Here's an example of how to use this header.
-
-For more variants look at the `example.cpp`.
 
 ```cpp
 #include "ColorizeText.hpp"
