@@ -16,15 +16,13 @@ With it you can set the **text color**, **background color**, and **boldness** o
 <td>
   
 ```cpp
-system("cls"); // for Windows systems          
+system("cls"); // for Windows systems      
 ```
-  
 <td>
   
 ```cpp
-system("clear"); // for Unix-based systems          
+system("clear"); // for Unix-based systems      
 ```
-
 </table>
 
 - And print things following this syntax:
