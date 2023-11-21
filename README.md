@@ -11,19 +11,11 @@ With it you can set the **text color**, **background color**, and **boldness** o
 - Include the `ColorizeText.hpp` file in your project.
 - Also need to clear the console screen to ensure hte colors display correctly.
   For this use:
-
-<table>
-<td>
   
 ```cpp
-system("cls"); // for Windows systems      
+system("cls"); // for Windows systems
+system("clear"); // for Unix-based systems
 ```
-<td>
-  
-```cpp
-system("clear"); // for Unix-based systems      
-```
-</table>
 
 - And print things following this syntax:
 ```c 
