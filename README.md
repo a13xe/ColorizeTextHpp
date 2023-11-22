@@ -9,7 +9,7 @@ With it you can set the **text color**, **background color**, and the **boldness
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file into your project.
-- Also need to clear the console screen to ensure the colors display correctly.
+- Also gotta clear the console screen to make sure colors display correctly.
   For this use:
   
 ```cpp
@@ -32,7 +32,7 @@ colorized_print("Your message", text_color, background_color, boldness);
 int main()
 {
     system("clear"); // on Linux
-    //system("cls"); // on Windows
+    // system("cls"); // on Windows
 
     colorized_print("white text on black bg", WHITE, BLACK, 0);
     colorized_print("bold white text on black bg", WHITE, BLACK, 1);
@@ -54,10 +54,12 @@ int main()
 ```
 
 
-:camera: Screenshot
+
+:camera: Screenshots
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-![image](https://github.com/a13xe/ColorizeTextHpp/assets/77492646/54f249ce-8189-427f-b82b-01c577818066)
-
+<div align="center"> <a href="https://github.com/AlexeyLepov">
+<img width=47% src="https://github.com/a13xe/ColorizeTextHpp/assets/77492646/d4a735ab-d2f2-4981-82e1-b97cc05ad508" alt="" />
+<img width=50% src="https://github.com/a13xe/ColorizeTextHpp/assets/77492646/8203e28e-6f16-44ae-9e06-e51c887b42bb" alt="" />
+</a> </div>
 
