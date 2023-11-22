@@ -14,7 +14,15 @@ enum Color
     BLUE,
     MAGENTA,
     CYAN,
-    WHITE
+    WHITE,
+    BRIGHT_BLACK = 90,
+    BRIGHT_RED,
+    BRIGHT_GREEN,
+    BRIGHT_YELLOW,
+    BRIGHT_BLUE,
+    BRIGHT_MAGENTA,
+    BRIGHT_CYAN,
+    BRIGHT_WHITE
 };
 
 
