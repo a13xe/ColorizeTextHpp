@@ -1,15 +1,15 @@
 :eye: Overview
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-This C++ tiny library provides a simple tools for colorizing text console output. 
-With it you can set the **text color**, **background color**, and **boldness** of the text.
+This C++ tiny library provides a simple tools for colorizing your console output. 
+With it you can set the **text color**, **background color**, and the **boldness** of a text.
 
 
 :beginner: Getting Started
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file in your project.
-- Also need to clear the console screen to ensure hte colors display correctly.
+- Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file into your project.
+- Also need to clear the console screen to ensure the colors display correctly.
   For this use:
   
 ```cpp
@@ -17,7 +17,7 @@ system("cls"); // for Windows systems
 system("clear"); // for Unix-based systems
 ```
 
-- And print things following this syntax:
+- Print things following this syntax:
 ```c 
 colorized_print("Your message", text_color, background_color, boldness);
 ```
