@@ -9,19 +9,37 @@ With it you can set the **text color**, **background color**, and the **boldness
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file into your project.
-- Also gotta clear the console screen to make sure colors display correctly.
-  For this use:
+- You should also clear the console screen in Windows for the colors to display correctly.
+For this use:
   
 ```cpp
-system("cls"); // for Windows systems
-system("clear"); // for Unix-based systems
+system("cls");
 ```
 
 - Print things following this syntax:
 ```c 
 colorized_print("Your message", text_color, background_color, boldness);
 ```
-  
+
+- Choose one of these for `text_color` and `background_color`:
+
+![BLACK](https://img.shields.io/badge/-BLACK-010101?style=for-the-badge)
+![RED](https://img.shields.io/badge/-Red-de382b?style=for-the-badge)
+![GREEN](https://img.shields.io/badge/-Green-39b54a?style=for-the-badge)
+![YELLOW](https://img.shields.io/badge/-YELLOW-ffc706?style=for-the-badge)
+![BLUE](https://img.shields.io/badge/-BLUE-006fb8?style=for-the-badge)
+![MAGENTA](https://img.shields.io/badge/-MAGENTA-762671?style=for-the-badge)
+![CYAN](https://img.shields.io/badge/-CYAN-2cb5e9?style=for-the-badge)
+![WHITE](https://img.shields.io/badge/-WHITE-cccccc?style=for-the-badge)
+![BRIGHT_BLACK](https://img.shields.io/badge/-BRIGHT%5F%5FBLACK-808080?style=for-the-badge)
+![BRIGHT_RED](https://img.shields.io/badge/-BRIGHT%5F%5FRED-ff0000?style=for-the-badge)
+![BRIGHT_GREEN](https://img.shields.io/badge/-BRIGHT%5F%5FGREEN-00ff00?style=for-the-badge)
+![BRIGHT_YELLOW](https://img.shields.io/badge/-BRIGHT%5F%5FYELLOW-ffff00?style=for-the-badge)
+![BRIGHT_BLUE](https://img.shields.io/badge/-BRIGHT%5F%5FBLUE-0000ff?style=for-the-badge)
+![BRIGHT_MAGENTA](https://img.shields.io/badge/-BRIGHT%5F%5FMAGENTA-ff00ff?style=for-the-badge)
+![BRIGHT_CYAN](https://img.shields.io/badge/-BRIGHT%5F%5FCYAN-00ffff?style=for-the-badge)
+![BRIGHT_WHITE](https://img.shields.io/badge/-BRIGHT%5F%5FWHITE-ffffff?style=for-the-badge)
+
 
 :joystick: Example
 --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,7 +49,6 @@ colorized_print("Your message", text_color, background_color, boldness);
 
 int main()
 {
-    system("clear"); // on Linux
     // system("cls"); // on Windows
 
     colorized_print("white text on black bg", WHITE, BLACK, 0);
