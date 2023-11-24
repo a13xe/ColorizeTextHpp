@@ -1,27 +1,29 @@
 :eye: Overview
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-This C++ tiny library provides a simple tools for colorizing your console output. 
+
+This tiny C++ library provides simple tools for colorizing your console output.
 With it you can set the **text color**, **background color**, and the **boldness** of a text.
 
 
 :beginner: Getting Started
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 - Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file into your project.
-- You should also clear the console screen in Windows for the colors to display correctly.
-For this use:
+- In the Windows operating system, you should also clear the console screen to ensure that the colors are displayed correctly:
   
 ```cpp
 system("cls");
 ```
 
-- Print things following this syntax:
+- Print things using the following syntax:
+
 ```c 
 colorized_print("Your message", text_color, background_color, boldness);
+// choose one of the colors below for both text_color and background_color
+// boldness can be either 0 or 1
 ```
-
-- Choose one of these for `text_color` and `background_color`:
 
 ![BLACK](https://img.shields.io/badge/-BLACK-010101?style=for-the-badge)
 ![RED](https://img.shields.io/badge/-Red-de382b?style=for-the-badge)
@@ -43,6 +45,7 @@ colorized_print("Your message", text_color, background_color, boldness);
 
 :joystick: Example
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ```cpp
 #include "ColorizeText.hpp"
@@ -71,12 +74,11 @@ int main()
 ```
 
 
-
 :camera: Screenshots
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 <div align="center"> <a href="https://github.com/AlexeyLepov">
 <img width=47% src="https://github.com/a13xe/ColorizeTextHpp/assets/77492646/d4a735ab-d2f2-4981-82e1-b97cc05ad508" alt="" />
 <img width=50% src="https://github.com/a13xe/ColorizeTextHpp/assets/77492646/8203e28e-6f16-44ae-9e06-e51c887b42bb" alt="" />
 </a> </div>
-
