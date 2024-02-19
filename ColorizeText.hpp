@@ -38,7 +38,7 @@ void colorized_print(const std::string& message, Color textColor, Color bgColor,
 
     colorCode += std::to_string(textColor) + ";" + std::to_string(bgColor + 10) + "m";
 
-    std::cout << colorCode << message << "\033[0m" << std::endl;
+    std::cout << colorCode << message << "\033[0m";
 }
 
 
