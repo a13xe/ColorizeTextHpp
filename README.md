@@ -14,7 +14,7 @@ With it you can set the **text color**, **background color**, and the **boldness
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-- Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.0/ColorizeText.hpp) file into your project.
+- Include the [ColorizeText.hpp](https://github.com/a13xe/ColorizeTextHpp/releases/download/v1.0.1/ColorizeText.hpp) file into your project.
 - In the Windows operating system, you should also clear the console screen to ensure that the colors are displayed correctly:
   
 ```cpp
